@@ -23,6 +23,10 @@
 		FF338720179A2E6300FF480F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3386FB179A2E6300FF480F /* Foundation.framework */; };
 		FF338728179A2E6300FF480F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF338726179A2E6300FF480F /* InfoPlist.strings */; };
 		FF33872B179A2E6300FF480F /* CounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33872A179A2E6300FF480F /* CounterTests.m */; };
+		FF338738179A2EB700FF480F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF338734179A2EB700FF480F /* icon.png */; };
+		FF338739179A2EB700FF480F /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = FF338735179A2EB700FF480F /* minus.png */; };
+		FF33873A179A2EB700FF480F /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = FF338736179A2EB700FF480F /* plus.png */; };
+		FF33873B179A2EB700FF480F /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = FF338737179A2EB700FF480F /* reset.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		FF338727179A2E6300FF480F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF338729179A2E6300FF480F /* CounterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CounterTests.h; sourceTree = "<group>"; };
 		FF33872A179A2E6300FF480F /* CounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterTests.m; sourceTree = "<group>"; };
+		FF338734179A2EB700FF480F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF338735179A2EB700FF480F /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		FF338736179A2EB700FF480F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		FF338737179A2EB700FF480F /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,10 @@
 		FF3386ED179A2E6300FF480F = {
 			isa = PBXGroup;
 			children = (
+				FF338734179A2EB700FF480F /* icon.png */,
+				FF338735179A2EB700FF480F /* minus.png */,
+				FF338736179A2EB700FF480F /* plus.png */,
+				FF338737179A2EB700FF480F /* reset.png */,
 				FF3386FF179A2E6300FF480F /* Counter */,
 				FF338723179A2E6300FF480F /* CounterTests */,
 				FF3386F8179A2E6300FF480F /* Frameworks */,
@@ -236,6 +248,10 @@
 				FF33870E179A2E6300FF480F /* Default@2x.png in Resources */,
 				FF338710179A2E6300FF480F /* Default-568h@2x.png in Resources */,
 				FF338713179A2E6300FF480F /* MainStoryboard.storyboard in Resources */,
+				FF338738179A2EB700FF480F /* icon.png in Resources */,
+				FF338739179A2EB700FF480F /* minus.png in Resources */,
+				FF33873A179A2EB700FF480F /* plus.png in Resources */,
+				FF33873B179A2EB700FF480F /* reset.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
